@@ -1,0 +1,104 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo,
+    header .logo img
+    {
+        height: 72px;
+    }
+
+
+    header .order_btn
+    {
+        width: 192px;
+        height: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 124px;
+    }
+
+
+    .first_section .info .items
+    {
+        margin-bottom: 0;
+    }
+
+    .first_section .info .items > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .logo_text
+    {
+        top: 136px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 20px 24px;
+    }
+
+
+    #order_modal .item
+    {
+        padding: 11px 17px;
+    }
+
+    #order_modal .item .name br
+    {
+        display: none;
+    }
+}

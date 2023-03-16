@@ -1,0 +1,642 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 12px;
+    }
+
+
+    /*--------------------
+        Vertical lines
+    --------------------*/
+    .vertical_lines .line:nth-child(2),
+    .vertical_lines .line:nth-last-child(2)
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item + .accordion_item
+    {
+        margin-top: 16px;
+    }
+
+
+    .accordion .accordion_item .head
+    {
+        padding: 16px 64px 16px 20px;
+    }
+
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 15px;
+    }
+
+
+    .accordion .accordion_item .head .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        margin-top: -16px;
+        padding-right: 64px;
+        padding-left: 20px;
+    }
+
+
+
+    /*-------------
+        Animate
+    -------------*/
+    .first_section .info .items > *,
+    .first_section .title,
+    .first_section .desc,
+    .first_section .btn,
+    .about_info .data .desc,
+    .about_info .video_link,
+    .stats .item,
+    .stats .text,
+    .for_whom .item,
+    .program .item,
+    .program .bottom,
+    .facts .row > *,
+    .persons .person,
+    .you_get .item,
+    .tariffs .tariff,
+    .accordion .accordion_item
+    {
+        visibility: visible;
+    }
+
+
+
+    /*--------------------
+        Fixed telegram
+    --------------------*/
+    .fixed_telegram
+    {
+        right: 16px;
+        bottom: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 14px;
+
+        margin-top: 17px;
+        padding: 0 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 136px;
+        padding-bottom: 0;
+    }
+
+
+    .first_section .info .items
+    {
+        justify-content: space-between;
+    }
+
+    .first_section .info .items > * + *
+    {
+        margin-left: 0;
+    }
+
+
+    .first_section .info .items .icon
+    {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+
+    .first_section .desc
+    {
+        line-height: 22px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .first_section .btn
+    {
+        width: 252px;
+        height: 52px;
+        margin-top: 32px;
+        padding: 12px 20px 12px 28px;
+    }
+
+
+    .first_section .img
+    {
+        position: relative;
+        right: 0;
+
+        width: 90%;
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .data .title
+    {
+        text-align: center;
+    }
+
+    .about_info .data .title br
+    {
+        display: none;
+    }
+
+
+    .about_info .data .desc
+    {
+        font-size: 14px;
+        line-height: 160%;
+
+        width: 100%;
+        margin-top: 24px;
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    .about_info .data .desc > *
+    {
+        padding: 16px;
+    }
+
+
+    .about_info .video_link
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .stats .row
+    {
+        margin-left: 0;
+    }
+
+    .stats .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .stats .item
+    {
+        padding: 32px 20px 20px;
+    }
+
+    .stats .item .chart .col
+    {
+        width: 97px;
+    }
+
+
+    .stats .text
+    {
+        font-size: 14px;
+    }
+
+    .stats .text .title
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*--------------
+        For whom
+    --------------*/
+    .for_whom
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .for_whom .row
+    {
+        margin-left: 0;
+    }
+
+    .for_whom .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program
+    {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+
+    .program .notice
+    {
+        font-size: 13px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .program .row
+    {
+        margin-left: 0;
+    }
+
+    .program .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .program .item .desc br
+    {
+        display: none;
+    }
+
+
+    .program .bottom
+    {
+        margin-top: 48px;
+        margin-right: -24px;
+        margin-bottom: 0;
+        margin-left: -24px;
+        padding: 32px 24px;
+    }
+
+    .program .bottom .text
+    {
+        font-size: 14px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .program .bottom .btn
+    {
+        height: 52px;
+        margin: 20px auto 0;
+    }
+
+
+
+    /*-----------
+        Facts
+    -----------*/
+    .facts
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .facts .row
+    {
+        margin-left: 0;
+    }
+
+    .facts .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .facts .action .title
+    {
+        font-size: 22px;
+    }
+
+
+    .facts .action .btn
+    {
+        height: 52px;
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .persons .logo_text
+    {
+        top: 108px;
+    }
+
+
+    .persons .row
+    {
+        margin-left: 0;
+    }
+
+    .persons .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .persons .person .photo
+    {
+        height: 272px;
+    }
+
+
+    .persons .person .info
+    {
+        padding: 1px 20px 20px;
+    }
+
+    .persons .person .post span
+    {
+        font-size: 14px;
+
+        padding: 11px 28px 12px;
+    }
+
+    .persons .person .name
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .reviews .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .reviews .review .name
+    {
+        margin-top: 16px;
+    }
+
+
+    .reviews .order_btn
+    {
+        height: 52px;
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        You get
+    -------------*/
+    .you_get
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .you_get .block_head
+    {
+        margin-bottom: 48px !important;
+    }
+
+
+    .you_get .row
+    {
+        margin-left: 0;
+    }
+
+    .you_get .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .you_get .item br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs
+    {
+        padding: 60px 0 64px;
+    }
+
+
+    .tariffs .tariff .info
+    {
+        width: 100%;
+        padding: 24px;
+    }
+
+
+    .tariffs .tariff .buy
+    {
+        width: 100%;
+        padding: 24px 24px 28px;
+    }
+
+    .tariffs .tariff .buy .price
+    {
+        font-size: 20px;
+    }
+
+
+    .tariffs .tariff .buy .exp
+    {
+        font-size: 13px;
+
+        margin-top: 8px;
+    }
+
+    .tariffs .tariff .buy .exp br
+    {
+        display: none;
+    }
+
+    .tariffs .tariff .buy .order_btn
+    {
+        height: 52px;
+        margin-top: 24px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq
+    {
+        padding: 60px 0 64px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 28px 32px;
+    }
+
+
+    #order_modal .title
+    {
+        font-size: 17px;
+        line-height: 144%;
+    }
+
+
+    #order_modal .item
+    {
+        padding: 11px 23px;
+    }
+
+
+    #order_modal .item .name
+    {
+        width: calc(100% - 75px);
+        margin-left: 20px;
+    }
+
+
+    #order_modal .item .btn
+    {
+        margin-top: 12px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    #order_modal .exp
+    {
+        line-height: 144%;
+
+        margin-top: 24px;
+    }
+}

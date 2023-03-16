@@ -1,0 +1,348 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item + .accordion_item
+    {
+        margin-top: 20px;
+    }
+
+
+    .accordion .accordion_item .head
+    {
+        padding: 20px 72px 20px 24px;
+    }
+
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        margin-top: -20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        height: 80px;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .order_btn
+    {
+        width: 200px;
+        height: 44px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: auto;
+        min-height: 0;
+        padding-top: 152px;
+        padding-bottom: 72px;
+    }
+
+
+    .first_section .info .items
+    {
+        margin-bottom: 20px;
+    }
+
+    .first_section .info .items .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 14px;
+        line-height: 24px;
+
+        width: 296px;
+        margin-top: 20px;
+    }
+
+
+    .first_section .btn
+    {
+        width: 260px;
+        height: 56px;
+        margin-top: 44px;
+        padding: 12px 20px 12px 32px;
+    }
+
+
+    .first_section .img
+    {
+        right: 48px;
+
+        width: 332px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data .desc
+    {
+        font-size: 15px;
+        line-height: 160%;
+
+        width: calc(100% + 200px);
+        margin-top: 28px;
+        margin-right: -200px;
+        padding: 8px;
+    }
+
+    .about_info .data .desc > *
+    {
+        padding: 20px 160px 20px 20px;
+    }
+
+
+    .about_info .video_link
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .item .chart .col
+    {
+        width: 87px;
+    }
+
+    .stats .item .chart .col + .col
+    {
+        margin-left: 8px;
+    }
+
+
+    .stats .item .chart .year
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-top: 12px;
+    }
+
+
+    .stats .text
+    {
+        font-size: 15px;
+        line-height: 160%;
+    }
+
+    .stats .text .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        For whom
+    --------------*/
+    .for_whom .row
+    {
+        margin-left: -32px;
+    }
+
+    .for_whom .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+    .for_whom .item .icon
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program .bottom
+    {
+        padding: 32px;
+    }
+
+
+    .program .bottom .text
+    {
+        font-size: 15px;
+
+        width: calc(100% - 304px);
+    }
+
+
+    .program .bottom .btn
+    {
+        height: 56px;
+        padding-right: 20px;
+    }
+
+
+
+    /*-----------
+        Facts
+    -----------*/
+    .facts .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .facts .action .btn
+    {
+        width: 260px;
+        height: 56px;
+        padding: 12px 20px 12px 24px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .order_btn
+    {
+        width: 260px;
+        height: 56px;
+        margin-top: 40px;
+        padding: 12px 20px 12px 24px;
+    }
+
+
+
+    /*-------------
+        You get
+    -------------*/
+    .you_get .row
+    {
+        margin-bottom: -52px;
+    }
+
+    .you_get .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 52px;
+    }
+
+
+    .you_get .item .thumb:before
+    {
+        font-size: 80px;
+
+        top: -16px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .tariff .info
+    {
+        width: calc(100% - 272px);
+        padding: 28px 24px;
+    }
+
+
+    .tariffs .tariff .buy
+    {
+        width: 272px;
+        padding: 28px 24px;
+    }
+
+    .tariffs .tariff .buy .price
+    {
+        font-size: 22px;
+    }
+
+    .tariffs .tariff .buy .order_btn
+    {
+        width: 260px;
+        height: 56px;
+        padding: 12px 20px 12px 24px;
+    }
+}
